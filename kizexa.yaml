@@ -1,0 +1,12 @@
+version: 1
+targets:
+  - id: android
+    framework: kotlin
+    platform: android
+    root: .
+    appId: com.kizexa.reference.minimal
+    build:
+      module: app
+      variant: release
+    track: internal
+    env: []
